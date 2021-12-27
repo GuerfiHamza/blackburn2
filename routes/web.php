@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 Route::get('/portfolio', [App\Http\Controllers\PortfolioController::class, 'index'])->name('portfolio');
+Route::get('/portfolio/{id}', [App\Http\Controllers\PortfolioController::class, 'show'])->name('portfolio.show');
 Route::get('/web', function () {
     return view('web');
 })->name('web');

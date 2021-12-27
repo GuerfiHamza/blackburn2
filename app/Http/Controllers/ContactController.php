@@ -31,7 +31,7 @@ class ContactController extends Controller
 
         \Mail::to(env('RECIPIENT_EMAIL'))->send(new \App\Mail\ContactMail($data));
 
-        return redirect()->back();
+        return redirect()->back()->with('success', 'Your message has been sent successfully!');
     }
     public function reloadCaptcha()
     {

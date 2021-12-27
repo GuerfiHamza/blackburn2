@@ -48,10 +48,12 @@ class PortfolioController extends Controller
      * @param  \App\Models\Portfolio  $portfolio
      * @return \Illuminate\Http\Response
      */
-    public function show(Portfolio $portfolio)
+    public function show(Portfolio $id)
     {
-        //
-    }
+        $portfolio = Portfolio::find($id)->first();
+
+        return $portfolio;
+        }
 
     /**
      * Show the form for editing the specified resource.

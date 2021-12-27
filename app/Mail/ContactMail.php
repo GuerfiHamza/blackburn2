@@ -28,14 +28,15 @@ class ContactMail extends Mailable
     public function build(Request $request){
         return $this->from([
             'address' => $request->email,
-            'name' => $request->name
+            'name' => $request->name,
+            'subject' => $request->subject
         ])
             ->to( env('APP_ADMIN_CONTACT') )
-            ->subject( 'Message from: ' . $request->name . '|' . $request->subject )
+            ->subject( 'Message from: ' . $request->name . ' | ' . $request->subject )
             ->view('emails.contactform')
             ->with([
                 'contactName' => $request->name,
-                'ContactSubject' => $request->subject,
+                'contactSubject' => $request->subject,
                 'contactEmail' => $request->email,
                 'contactMessage' => $request->message
             ]);
