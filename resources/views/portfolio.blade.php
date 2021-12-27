@@ -1,12 +1,12 @@
 @extends('layouts.app')
-@section('title', 'Home')
+@section('title', 'Portfolio')
 @section('content')
     <section>
 
         <div class="py-20 bg-gray-900 radius-for-skewed">
             <div class="container mx-auto px-4" x-data="{ tab: 'sites' }">
                 <div class="mb-8 md:mb-16 max-w-lg mx-auto text-center">
-                    <span class="text-purple-600 font-bold">Dolor sit amet consectutar</span>
+                    <span class="text-purple-600 font-bold">Our best designs</span>
                     <h2 class="mb-6 text-4xl lg:text-5xl font-bold font-heading text-white">Latest Projects</h2>
                     <div class="inline-flex flex-wrap py-1 sm:px-1 sm:space-x-1 bg-gray-800 rounded text-sm">
                         <button @click.prevent="tab = 'sites'"
