@@ -308,7 +308,7 @@
                             <button
                                 class="w-full flex text-white justify-between items-center text-left font-bold font-heading hover:text-purple-600"
                                 @click="expanded = !expanded" :aria-expanded="expanded">
-                                <span class="text-xl">What design services does Breezy hill Marketing provide?
+                                <span class="text-xl">What design services does Blackburn provide?
 
                                 </span>
                                 <svg class="w-4 h-4 text-purple-600" x-show="expanded" aria-hidden="true"
