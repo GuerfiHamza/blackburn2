@@ -231,7 +231,7 @@
                     dataType: 'JSON',
 
                     success: function(data) {
-                        console.log(data);
+                        // console.log(data);
                         $('.title').text(data.title);
                         $('.image').prop("src", "{{ asset('storage/') }}" + '/' + data.image);
                         $('.description').val(data.description);
