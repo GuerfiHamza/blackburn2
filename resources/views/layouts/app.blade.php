@@ -8,8 +8,6 @@
     <title>Blackburn - @yield('title')</title>
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
@@ -27,7 +25,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <meta name="description" content="Blackburn is a stratup specialized in design and web development">
+    <meta name="description" content="Blackburn specialize in creating all types of websites (E-commerce, Showcase etc...) & graphic content (Logos, Banner, Roll-ups etc...)">
     <meta name="keywords"
         content="Web, Design, WebDesign, Logo, E-commerce, creation de siteweb,blog, blackburn,charte graphique, facebook post">
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-187779000-1"></script>
@@ -42,9 +40,6 @@
             gtag('config', 'UA-187779000-1');
 
         </script>
-        <script data-ad-client="ca-pub-5188850040092609" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-
 </head>
 
 <body class="antialiased bg-gray-900">

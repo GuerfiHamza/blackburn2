@@ -11,9 +11,9 @@
                             <img class="hidden lg:block absolute inset-0 w-full" src="atis-assets/background/lines.svg"
                                 alt="">
                             <div class="relative max-w-md mx-auto lg:mx-0">
-                                <h2 class="mb-3 text-4xl lg:text-5xl text-white font-bold">
+                                <h1 class="mb-3 text-4xl lg:text-5xl text-white font-bold">
                                     <span class="text-purple-600 uppercase">Blackburn</span>
-                                </h2>
+                                </h1>
                             </div>
                             <div class="relative max-w-sm mx-auto lg:mx-0">
                                 <p class="mb-6 text-gray-400 leading-loose">Blackburn specialize in creating all types of websites (E-commerce, Showcase etc...) & graphic content (Logos, Banner, Roll-ups etc...)</p>
