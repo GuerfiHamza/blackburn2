@@ -648,8 +648,10 @@ class ComposerStaticInitb34e1888919194f578f48416a7e501e7
     );
 
     public static $classMap = array (
+        'App\\Console\\Commands\\GenerateSitemap' => __DIR__ . '/../..' . '/app/Console/Commands/GenerateSitemap.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\ContactController' => __DIR__ . '/../..' . '/app/Http/Controllers/ContactController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\PortfolioController' => __DIR__ . '/../..' . '/app/Http/Controllers/PortfolioController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
@@ -663,6 +665,7 @@ class ComposerStaticInitb34e1888919194f578f48416a7e501e7
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Http\\Requests\\StorePortfolioRequest' => __DIR__ . '/../..' . '/app/Http/Requests/StorePortfolioRequest.php',
         'App\\Http\\Requests\\UpdatePortfolioRequest' => __DIR__ . '/../..' . '/app/Http/Requests/UpdatePortfolioRequest.php',
+        'App\\Mail\\ContactMail' => __DIR__ . '/../..' . '/app/Mail/ContactMail.php',
         'App\\Models\\Portfolio' => __DIR__ . '/../..' . '/app/Models/Portfolio.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Policies\\PortfolioPolicy' => __DIR__ . '/../..' . '/app/Policies/PortfolioPolicy.php',

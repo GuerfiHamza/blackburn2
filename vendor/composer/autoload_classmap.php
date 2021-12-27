@@ -6,8 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Console\\Commands\\GenerateSitemap' => $baseDir . '/app/Console/Commands/GenerateSitemap.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
+    'App\\Http\\Controllers\\ContactController' => $baseDir . '/app/Http/Controllers/ContactController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Controllers\\PortfolioController' => $baseDir . '/app/Http/Controllers/PortfolioController.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
@@ -21,6 +23,7 @@ return array(
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
     'App\\Http\\Requests\\StorePortfolioRequest' => $baseDir . '/app/Http/Requests/StorePortfolioRequest.php',
     'App\\Http\\Requests\\UpdatePortfolioRequest' => $baseDir . '/app/Http/Requests/UpdatePortfolioRequest.php',
+    'App\\Mail\\ContactMail' => $baseDir . '/app/Mail/ContactMail.php',
     'App\\Models\\Portfolio' => $baseDir . '/app/Models/Portfolio.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Policies\\PortfolioPolicy' => $baseDir . '/app/Policies/PortfolioPolicy.php',
