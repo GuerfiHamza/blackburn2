@@ -9,7 +9,7 @@
                     <div class="w-full lg:w-1/2 px-4 flex items-center">
                         <div class="w-full text-center lg:text-left">
                             <img class="hidden lg:block absolute inset-0 w-full" src="atis-assets/background/lines.svg"
-                                alt="">
+                                alt="" lazy="loading">
                             <div class="relative max-w-md mx-auto lg:mx-0">
                                 <h1 class="mb-3 text-4xl lg:text-5xl text-white font-bold">
                                     <span class="text-purple-600 uppercase">Blackburn</span>
@@ -26,7 +26,7 @@
                     </div>
                     <div class="w-full lg:w-1/2 px-4">
                         <img class="lg:absolute top-0 my-12 lg:my-0 h-full w-full lg:w-1/2 rounded-3xl lg:rounded-none object-cover"
-                            src="img/macbook.jpg" alt="">
+                            src="img/macbook.jpg" alt="" lazy="loading">
                     </div>
                 </div>
             </div>
@@ -152,11 +152,11 @@
                     </div>
                     <div class="flex flex-wrap items-center w-full lg:w-1/2 px-4">
                         <div class="mb-6 w-full lg:w-1/2 px-3">
-                            <img class="mb-6 w-full h-64 object-contain rounded-3xl " src="img/somatelec.png" alt="">
-                            <img class="w-full h-64 object-contain rounded-3xl " src="img/mhl.png" alt="">
+                            <img class="mb-6 w-full h-64 object-contain rounded-3xl " src="img/somatelec.png" alt="" lazy="loading">
+                            <img class="w-full h-64 object-contain rounded-3xl " src="img/mhl.png" alt="" lazy="loading">
                         </div>
                         <div class="w-full lg:w-1/2 px-3">
-                            <img class="w-full h-64 object-contain rounded-3xl " src="img/mhlweb.png" alt="">
+                            <img class="w-full h-64 object-contain rounded-3xl " src="img/mhlweb.png" alt="" lazy="loading">
                         </div>
                     </div>
                 </div>
@@ -170,7 +170,7 @@
             <div class="container mx-auto px-4">
                 <div class="max-w-xl mx-auto text-center">
                     <a class="mb-6 inline-block text-white text-3xl font-bold leading-none" href="#">
-                        <img class="h-12" src="img/B-03.png" alt="" width="auto">
+                        <img class="h-12" src="img/B-03.png" alt="" width="auto" lazy="loading">
                     </a>
                     <h2 class="mb-4 text-4xl lg:text-5xl text-white font-bold font-heading">Check our website plans</h2>
 
