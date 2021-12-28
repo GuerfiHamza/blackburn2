@@ -175,7 +175,7 @@
                     <h2 class="mb-4 text-4xl lg:text-5xl text-white font-bold font-heading">Check our website plans</h2>
 
                     <a class="inline-block py-2 px-6 bg-purple-600 hover:bg-purple-700 text-white font-bold leading-loose rounded-xl transition duration-200"
-                        href="#">Plans</a>
+                        href="{{ route('web') }}">Plans</a>
                 </div>
             </div>
         </div>
