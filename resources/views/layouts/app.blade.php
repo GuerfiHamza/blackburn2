@@ -43,6 +43,11 @@
 </head>
 
 <body class="antialiased bg-gray-900">
+    <noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=337774481260110&ev=PageView
+&noscript=1"/>
+</noscript>
     <section>
         <div x-data="{ isOpen: false }">
 
