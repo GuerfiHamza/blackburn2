@@ -8,3 +8,9 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+.env
+.env.local
+.env.web
+public/storage/portfolios.zip
+storage/app/public/portfolios.zip
+.env

@@ -339,6 +339,44 @@
 
     </section>
 
+    <section>
 
+        <div class="py-20 bg-gray-900 radius-for-skewed">
+          <div class="container px-4 mx-auto">
+            <div class="mb-16 flex flex-wrap justify-center md:justify-between items-center">
+              <div class="text-center lg:text-left">
+                <h2 class="text-4xl lg:text-5xl font-bold font-heading text-white">Instagram Posts</h2>
+              </div>
+              <a class="hidden md:inline-block py-2 px-6 rounded-l-xl rounded-t-xl bg-purple-600 hover:bg-purple-700 text-gray-50 font-bold leading-loose transition duration-200" href="https://www.instagram.com/blackburn_designs" target="_blank">View More</a>
+            </div>
+            <div class="flex flex-wrap -mx-4 mb-4">
+                @foreach (array_slice($total,0,8) as $w)
+                    
+                <div class="w-full md:w-1/2 lg:w-1/4 mb-8 px-4">
+                    <a href="{{$w->permalink}}" target="_blank"> 
+
+                    <div class="relative mx-auto h-64 w-full rounded-xl">
+                        <img class="relative h-full w-full rounded-xl object-contain"
+                            src="{{ $w->media_url }}" alt="">
+
+                        <div class="opacity-0  hover:opacity-100">
+                            <div class="absolute inset-0  bg-gray-900 opacity-80 rounded-xl"></div>
+
+                            <div class=" absolute inset-0 flex items-center justify-center">
+                                <p class="text-white text-sm px-8">{{ Str::limit($w->caption,40) }}</p>
+
+                            </div>
+                        </div>
+                    </div>
+</a>
+
+                </div>
+            @endforeach
+
+            </div>
+          </div>
+        </div>
+
+      </section>
 
 @stop
